@@ -1,0 +1,25 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "Blazin fast REST API with NODE MONGO FASTIFY and SWAGGER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgibers/fastify-api.git"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "fastify",
+    "swagger"
+  ],
+  "author": "Brendan Giberson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgibers/fastify-api/issues"
+  },
+  "homepage": "https://github.com/bgibers/fastify-api#readme"
+}
