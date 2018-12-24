@@ -1,9 +1,10 @@
 {
   "name": "fastify-api",
   "version": "1.0.0",
-  "description": "Blazin fast REST API with NODE MONGO FASTIFY and SWAGGER",
+  "description": "Super fast API",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,15 +12,19 @@
     "url": "git+https://github.com/bgibers/fastify-api.git"
   },
   "keywords": [
-    "node",
-    "mongo",
-    "fastify",
-    "swagger"
+    "nodeJS"
   ],
   "author": "Brendan Giberson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bgibers/fastify-api/issues"
   },
-  "homepage": "https://github.com/bgibers/fastify-api#readme"
+  "homepage": "https://github.com/bgibers/fastify-api#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^1.13.3",
+    "fastify-swagger": "^0.16.2",
+    "mongoose": "^5.4.0",
+    "nodemon": "^1.18.9"
+  }
 }
